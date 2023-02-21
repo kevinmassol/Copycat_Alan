@@ -198,3 +198,35 @@
 .offers__introduction a {
   color: var(--color-blue);
 }
+
+.offers__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-offer {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 23%;
+  box-shadow: 0px 0px 83px -33px rgba(0, 0, 0, 0.43);
+}
+
+.card-offer__container-title {
+  background-color: #ebf5ff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-offer__icon {
+  width: 45px;
+  margin-right: 10px;
+}
+
+.card-offer__title {
+  color: var(--color-blue);
+}
+
+.card-offer__description {
+  padding: 20px 10px 10px 10px;
+}
